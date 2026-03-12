@@ -32,3 +32,5 @@ test('Order flow — product page → checkout → confirmation', async ({ page 
 await expect(page).toHaveURL(/thank-you\/order-received/);
 await expect(page).toHaveTitle('Thank you - Regal watch');
 });
+
+//step 7
