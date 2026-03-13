@@ -36,19 +36,20 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'], headless: true },
+      use: { ...devices['Desktop Chrome'], headless: false },
     },
 
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'],
-    //   headless: true
+    //   headless: false
     //    },
     // },
 
     // {
     //   name: 'webkit',
-    //   use: { ...devices['Desktop Safari'] },
+    //   use: { ...devices['Desktop Safari'], headless: false },
+      
     // },
 
     /* Test against mobile viewports. */
